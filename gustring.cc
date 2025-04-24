@@ -31,7 +31,6 @@ namespace Gu {
         bool operator!=(const GuString& rhs) const;
         char& operator[](int index);
         const char& operator[](int index) const;
-        //std::ostream& operator<<(std::ostream& os, const GuString& str);
 
         int length() const;
         void print() const;
